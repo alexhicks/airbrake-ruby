@@ -30,7 +30,7 @@ DESC
   if defined?(JRuby)
     s.add_dependency 'rbtree-jruby', '~> 0.2'
   else
-    s.add_dependency 'rbtree3', '~> 0.6'
+    s.add_dependency 'rbtree3', '~> 0.7'
   end
 
   s.add_development_dependency 'rspec', '~> 3'
